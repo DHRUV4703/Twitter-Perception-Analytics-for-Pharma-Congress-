@@ -1,6 +1,6 @@
 Overview
 
-This project analyzes Twitter data from major medical congresses (e.g., ASCO) to assess Healthcare Professional (HCP) perception, engagement, and discussion trends around clinical trials and drug launches of a Fortune 500 pharmaceutical company.
+This project analyzes Twitter data from major medical congresses (e.g., ASCO) to assess Healthcare Professional (HCP) perception, engagement, and discussion trends around clinical trials and drug-related topics for a Fortune 500 pharmaceutical company.
 
 The solution applies Real-World Evidence (RWE) analytics to social media data to generate actionable insights for Field Medical and Business Insights & Analytics teams.
 
@@ -9,7 +9,7 @@ Measure congress conversation coverage against pre-brief expectations
 Identify key stakeholders such as HCPs, researchers, and advocacy groups
 Evaluate engagement and influence of medical voices
 Analyze trial and product-level discussion trends
-Assess company share of voice and priority study performance
+Assess share of voice and priority study performance
 Key Features
 Exploratory Data Analysis (EDA) using Python
 Tag-based mapping of tweets to studies, products, and indications
@@ -27,10 +27,10 @@ HCP Share of Voice
 HCP Engagement and Reach
 Advocacy Participation
 Top Influencers
-3. BMS and Priority Studies
-BMS Share of Voice
+3. Priority Studies and Insights
+Study-level Share of Voice
 Priority Study Coverage
-CAR-T Discussion Trends
+Therapy Area Trends (e.g., CAR-T)
 Top Study by Engagement
 Tech Stack
 Category	Tools
@@ -43,8 +43,8 @@ Twitter API → Data Cleaning and EDA (Python) → Tag Mapping → KPI Computati
 Key Insights Delivered
 Identified HCP-driven conversation patterns and influence
 Measured gaps between actual conversation and pre-brief coverage
-Highlighted high-impact trials and products
-Evaluated company positioning through share of voice
+Highlighted high-impact trials and discussion topics
+Evaluated competitive positioning through share of voice
 Repository Structure
 data/          # Processed or sample datasets  
 notebooks/     # Python EDA notebooks  
